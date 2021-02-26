@@ -813,3 +813,17 @@
 {"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2018-02-15T23:30:18.657Z"}
 {"level":"info","message":"Listening on port 3000...","timestamp":"2018-02-15T23:30:18.919Z"}
 {"level":"info","message":"Connected to mongodb://localhost/vidly_tests...","timestamp":"2018-02-15T23:30:18.926Z"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb+srv://mckinn:mSywmhHfwEm9GL2j@cluster0.qqadq.mongodb.net/vidly?retryWrites=true&w=majority...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb+srv://mckinn:mSywmhHfwEm9GL2j@cluster0.qqadq.mongodb.net/vidly?retryWrites=true&w=majority...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb+srv://mckinn:mSywmhHfwEm9GL2j@cluster0.qqadq.mongodb.net/vidly?retryWrites=true&w=majority...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb+srv://mckinn:mSywmhHfwEm9GL2j@cluster0.qqadq.mongodb.net/vidly?retryWrites=true&w=majority...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb+srv://mckinn:mSywmhHfwEm9GL2j@cluster0.qqadq.mongodb.net/vidly?retryWrites=true&w=majority...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb+srv://mckinn:mSywmhHfwEm9GL2j@cluster0.qqadq.mongodb.net/vidly?retryWrites=true&w=majority...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Connected to mongodb+srv://mckinn:mSywmhHfwEm9GL2j@cluster0.qqadq.mongodb.net/vidly?retryWrites=true&w=majority...","level":"info"}
