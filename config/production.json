@@ -1,0 +1,9 @@
+{
+  "jwtPrivateKey": "",
+  "db": {
+      "urlPrefix" : "mongodb+srv://",
+      "userPart" :  "mckinn",
+      "userSecret" : "",
+      "urlBody": "cluster0.qqadq.mongodb.net/vidly?retryWrites=true&w=majority"
+  }
+}

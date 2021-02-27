@@ -1,3 +1,9 @@
 {
-  "jwtPrivateKey": "vidly_jwtPrivateKey"
+  "jwtPrivateKey": "vidly_jwtPrivateKey",
+  "db": {
+      "urlPrefix" : "",
+      "userPart" :  "",
+      "userSecret" : "vidly_dbSecret",
+      "urlBody": ""
+  }
 }

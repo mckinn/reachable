@@ -10,6 +10,9 @@ mongoose.set('useUnifiedTopology', true);
 
 module.exports = function() {
   const db = config.get('db');
-  mongoose.connect(db)
-    .then(() => winston.info(`Connected to ${db}...`));
+  console.log(db);
+  const dbUrl = ((db.userPart) ? `${db.urlPrefix}${db.userPart}:${db.userSecret}@${db.urlBody}` :  `${db.urlPrefix}${db.urlBody}`);
+  console.log(dbUrl);
+  mongoose.connect(dbUrl)
+    .then(() => winston.info(`Connected to ${dbUrl}...`));
 }

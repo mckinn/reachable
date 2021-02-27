@@ -1,5 +1,9 @@
 {
-  // TODO
-  "jwtPrivateKey": "mSywmhHfwEm9GL2j",
-  "db": "mongodb+srv://mckinn:mSywmhHfwEm9GL2j@cluster0.qqadq.mongodb.net/vidly?retryWrites=true&w=majority"
+  "jwtPrivateKey": "",
+  "db": {
+      "urlPrefix" : "mongodb://",
+      "userPart" :  "",
+      "userSecret" : "",
+      "urlBody": "localhost/vidly"
+  }
 }
