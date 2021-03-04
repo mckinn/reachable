@@ -5,5 +5,13 @@
       "userPart" :  "",
       "userSecret" : "",
       "urlBody": "localhost/vidly"
+  },
+  "irisMsg": {
+    "account":"",
+    "baseUrl":"https://hookb.in/6JjD3xpXpjSLbb031B2M",
+    "token": "",
+    "secret":"",
+    "user": "",
+    "password":""
   }
 }

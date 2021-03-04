@@ -5,5 +5,13 @@
       "userPart" :  "mckinn",
       "userSecret" : "",
       "urlBody": "cluster0.qqadq.mongodb.net/vidly?retryWrites=true&w=majority"
+  },
+  "irisMsg": {
+    "account":"9900012",
+    "baseUrl":"https://messaging.bandwidth.com/api/v2/users",
+    "token": "",
+    "secret":"",
+    "user": "",
+    "password":""
   }
 }

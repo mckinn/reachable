@@ -1,9 +1,17 @@
 {
   "jwtPrivateKey": "vidly_jwtPrivateKey",
   "db": {
-      "urlPrefix" : "",
-      "userPart" :  "",
-      "userSecret" : "vidly_dbSecret",
-      "urlBody": ""
+    "urlPrefix" : "",
+    "userPart" :  "",
+    "userSecret" : "vidly_dbSecret",
+    "urlBody": ""
+  },
+  "irisMsg": {
+    "account":"",
+    "baseUrl":"",
+    "token": "iris_token",
+    "secret":"iris_secret",
+    "user": "iris_user",
+    "password":"iris_password"
   }
 }
