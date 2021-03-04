@@ -1,4 +1,4 @@
 node_modules/
-logfile.log
-uncaughtExceptions.log
-*.log
+# logfile.log
+# uncaughtExceptions.log
+# *.log
