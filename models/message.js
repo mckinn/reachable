@@ -45,8 +45,8 @@ const Message = mongoose.model('Message', messageSchema);
 
 function validateMessage(message) {
   const schema = Joi.object({
-    to: Joi.string().required(),
-    from: Joi.string().required(),
+    to: Joi.string().pattern(/^\+1\d{10}$/).required(),
+    from: Joi.string().pattern(/^\+1\d{10}$/).required(),
     text: Joi.string().min(1).max(140).required()
   });
   return schema.validate(message);
@@ -58,7 +58,7 @@ function validateAlert(message) {
     //TODO - extend this error checking 
     time: Joi.date(),
     type: Joi.valid('message-delivered','message-failed','message-received').required(), 
-    to: Joi.string().min(12).max(12).required(),
+    to: Joi.string().pattern(/^\+1\d{10}$/).required(),
     description: Joi.string(),
     message: Joi.object()
   });
